@@ -1,0 +1,19 @@
+proxies:
+  - name: "JP|OE1a.love@xray.com"
+    type: vless
+    server: 202.182.106.170
+    port: 56635
+    uuid: b8e1dced-e235-4be6-a6db-4aa12ee5507c
+    network: tcp
+    udp: true
+    tls: false
+
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - "JP|OE1a.love@xray.com"
+      - DIRECT
+
+rules:
+  - MATCH,Proxy
