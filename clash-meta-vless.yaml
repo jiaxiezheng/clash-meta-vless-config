@@ -1,9 +1,9 @@
 proxies:
-  - name: "JP|OE1a.love@xray.com"
+  - name: "esa1|MUKc.love@xray.com"
     type: vless
-    server: 202.182.106.170
-    port: 56635
-    uuid: b8e1dced-e235-4be6-a6db-4aa12ee5507c
+    server: 216.238.95.202
+    port: 55120
+    uuid: a899c249-916b-4fa3-9462-0efb31b861ef
     network: tcp
     udp: true
     tls: false
@@ -12,7 +12,7 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "JP|OE1a.love@xray.com"
+      - "esa1|MUKc.love@xray.com"
       - DIRECT
 
 rules:
