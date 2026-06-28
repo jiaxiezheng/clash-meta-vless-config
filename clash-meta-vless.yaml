@@ -1,9 +1,9 @@
 proxies:
-  - name: "esa1|MUKc.love@xray.com"
+  - name: "esa2|gsbe.love@xray.com"
     type: vless
-    server: 216.238.95.202
-    port: 55120
-    uuid: a899c249-916b-4fa3-9462-0efb31b861ef
+    server: 216.238.85.113
+    port: 17507
+    uuid: 7fdaf17f-4d95-4c9c-977f-f53b3b9d3217
     network: tcp
     udp: true
     tls: false
@@ -12,7 +12,7 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - "esa1|MUKc.love@xray.com"
+      - "esa2|gsbe.love@xray.com"
       - DIRECT
 
 rules:
